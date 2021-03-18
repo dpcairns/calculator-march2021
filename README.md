@@ -1,4 +1,4 @@
-# EDIT-THIS-README
+## Calculator App
 
 ## Making a plan
 1) Make a drawing of your app. Simple "wireframes"
