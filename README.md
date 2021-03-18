@@ -36,12 +36,12 @@ We will need:
 
 ## Event handlers/listeners
 - What happens when they click the button?
-        - We need to get the values from the inputs
-            - How? `inputElement.value`
-            - Validate: `console.log()` the input values
-        - We add these numbers together
-            - How? `const sum = Number(inputElement.value) + Number(otherInputElement.value)`
-            - Validate: `console.log()` the sum
-        - Inject the sum into the div so the user can see it
-            - How? `myDiv.textContent = sum`
-            - Validate: Go look at the site and do the stuff
+    - We need to get the values from the inputs
+        - How? `inputElement.value`
+        - Validate: `console.log()` the input values
+    - We add these numbers together
+        - How? `const sum = Number(inputElement.value) + Number(otherInputElement.value)`
+        - Validate: `console.log()` the sum
+    - Inject the sum into the div so the user can see it
+        - How? `myDiv.textContent = sum`
+        - Validate: Go look at the site and do the stuff
