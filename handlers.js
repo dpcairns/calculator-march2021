@@ -1,4 +1,9 @@
-import { add, subtract, multiply } from './utils.js';
+import { 
+    add, 
+    subtract, 
+    multiply, 
+    divide,
+} from './utils.js';
 
 const addInput1 = document.getElementById('add-input-1');
 const addInput2 = document.getElementById('add-input-2');
@@ -9,6 +14,9 @@ const subtractAnswer = document.getElementById('subtract-answer');
 const multiplyInput1 = document.getElementById('multiply-input-1');
 const multiplyInput2 = document.getElementById('multiply-input-2');
 const multiplyAnswer = document.getElementById('multiply-answer');
+const divideInput1 = document.getElementById('divide-input-1');
+const divideInput2 = document.getElementById('divide-input-2');
+const divideAnswer = document.getElementById('divide-answer');
 
 
 export function handleAddClick() {
@@ -33,5 +41,12 @@ export function handleMultiplyClick() {
     const product = multiply(value1, value2);
 
     multiplyAnswer.textContent = product;
+}
 
+export function handleDivideClick() {
+    const value1 = Number(divideInput1.value);
+    const value2 = Number(divideInput2.value);
+    const quotient = divide(value1, value2);
+    
+    divideAnswer.textContent = quotient;
 }
